@@ -33,7 +33,6 @@ print(f'test accuracy: {acc_test*100:.2f}%')
 
 models.train(model,dataloader_test, loss_fn, optimizer)
 
-
 acc_test = models.test_accuracy(model,dataloader_test)
 print(f'testaccuracy: {acc_test*100:.2f}%')
 
